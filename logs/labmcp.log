@@ -2568,3 +2568,359 @@ Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (usi
 2026-11-06T11:35:35.690-05:00  INFO 26744 --- [labmcp] [http-nio-8088-exec-8] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-06-18, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=Java SDK MCP Client, title=null, version=1.0.0]
 2026-11-06T11:36:05.695-05:00  INFO 26744 --- [labmcp] [http-nio-8088-exec-9] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-06-18, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=Java SDK MCP Client, title=null, version=1.0.0]
 2026-11-06T11:37:05.008-05:00  INFO 26744 --- [labmcp] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-17T18:11:30.328-05:00  INFO 15028 --- [labmcp] [restartedMain] com.example.labmcp.LabmcpApplication     : Starting LabmcpApplication using Java 21.0.12.1 with PID 15028 (C:\Users\USUARIO\Desktop\UdeA\Octavo semestre\Arquitectura\laboratorios\Laboratorio 3\labmcp\target\classes started by USUARIO in C:\Users\USUARIO\Desktop\UdeA\Octavo semestre\Arquitectura\laboratorios\Laboratorio 3\labmcp)
+2026-11-17T18:11:30.330-05:00  INFO 15028 --- [labmcp] [restartedMain] com.example.labmcp.LabmcpApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-11-17T18:11:30.371-05:00  INFO 15028 --- [labmcp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-17T18:11:30.372-05:00  INFO 15028 --- [labmcp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-17T18:11:32.442-05:00  INFO 15028 --- [labmcp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-17T18:11:32.762-05:00  INFO 15028 --- [labmcp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 286 ms. Found 1 JPA repository interface.
+2026-11-17T18:11:33.309-05:00  WARN 15028 --- [labmcp] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-11-17T18:11:33.311-05:00  WARN 15028 --- [labmcp] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'serverAnnotatedBeanRegistry' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration$ServerMcpAnnotatedBeans] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-11-17T18:11:33.317-05:00  WARN 15028 --- [labmcp] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.ai.mcp.server.annotation-scanner-org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerProperties' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-11-17T18:11:33.877-05:00  INFO 15028 --- [labmcp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2026-11-17T18:11:33.921-05:00  INFO 15028 --- [labmcp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-17T18:11:33.921-05:00  INFO 15028 --- [labmcp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2026-11-17T18:11:34.082-05:00  INFO 15028 --- [labmcp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-17T18:11:34.082-05:00  INFO 15028 --- [labmcp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3709 ms
+2026-11-17T18:11:34.247-05:00  INFO 15028 --- [labmcp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-17T18:11:36.266-05:00  INFO 15028 --- [labmcp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-17T18:11:36.431-05:00  INFO 15028 --- [labmcp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2026-11-17T18:11:36.487-05:00  INFO 15028 --- [labmcp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-17T18:11:36.902-05:00  INFO 15028 --- [labmcp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-17T18:11:36.982-05:00  INFO 15028 --- [labmcp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-17T18:11:37.989-05:00  WARN 15028 --- [labmcp] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1049, SQLState: 42000
+2026-11-17T18:11:37.989-05:00 ERROR 15028 --- [labmcp] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown database 'labmcp'
+2026-11-17T18:11:37.990-05:00  WARN 15028 --- [labmcp] [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+
+org.hibernate.exception.SQLGrammarException: unable to obtain isolated JDBC connection [Unknown database 'labmcp'] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:91) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:336) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:129) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:81) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:226) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:194) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.7.jar:3.4.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.7.jar:3.4.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.7.jar:3.4.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.7.jar:3.4.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.7.jar:3.4.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.7.jar:3.4.7]
+	at com.example.labmcp.LabmcpApplication.main(LabmcpApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.7.jar:3.4.7]
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'labmcp'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:126) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:483) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	... 38 common frames omitted
+
+2026-11-17T18:11:38.070-05:00  WARN 15028 --- [labmcp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-17T18:11:38.091-05:00  INFO 15028 --- [labmcp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (null)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-17T18:11:39.037-05:00  INFO 15028 --- [labmcp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-17T18:11:39.068-05:00  INFO 15028 --- [labmcp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-17T18:11:40.079-05:00  WARN 15028 --- [labmcp] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1049, SQLState: 42000
+2026-11-17T18:11:40.079-05:00 ERROR 15028 --- [labmcp] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown database 'labmcp'
+2026-11-17T18:11:40.093-05:00 ERROR 15028 --- [labmcp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution [Unknown database 'labmcp'] [n/a]
+2026-11-17T18:11:40.094-05:00  WARN 15028 --- [labmcp] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution [Unknown database 'labmcp'] [n/a]
+2026-11-17T18:11:40.096-05:00  INFO 15028 --- [labmcp] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-11-17T18:11:40.127-05:00  INFO 15028 --- [labmcp] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-11-17T18:11:40.179-05:00 ERROR 15028 --- [labmcp] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution [Unknown database 'labmcp'] [n/a]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.7.jar:3.4.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.7.jar:3.4.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.7.jar:3.4.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.7.jar:3.4.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.7.jar:3.4.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.7.jar:3.4.7]
+	at com.example.labmcp.LabmcpApplication.main(LabmcpApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.7.jar:3.4.7]
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution [Unknown database 'labmcp'] [n/a]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:431) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.8.jar:6.2.8]
+	... 18 common frames omitted
+Caused by: org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution [Unknown database 'labmcp'] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcDatabaseMetaData(ImprovedExtractionContextImpl.java:70) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl.processTableResultSet(InformationExtractorJdbcDatabaseMetaDataImpl.java:65) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.extract.internal.AbstractInformationExtractorImpl.getTables(AbstractInformationExtractorImpl.java:570) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.getTablesInformation(DatabaseInformationImpl.java:122) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:72) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.8.jar:6.2.8]
+	... 22 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'labmcp'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:126) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:483) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	... 43 common frames omitted
+
+2026-11-17T18:34:08.355-05:00  INFO 8644 --- [labmcp] [restartedMain] com.example.labmcp.LabmcpApplication     : Starting LabmcpApplication using Java 21.0.12.1 with PID 8644 (C:\Users\USUARIO\Desktop\UdeA\Octavo semestre\Arquitectura\laboratorios\Laboratorio 3\labmcp\target\classes started by USUARIO in C:\Users\USUARIO\Desktop\UdeA\Octavo semestre\Arquitectura\laboratorios\Laboratorio 3\labmcp)
+2026-11-17T18:34:08.356-05:00  INFO 8644 --- [labmcp] [restartedMain] com.example.labmcp.LabmcpApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-11-17T18:34:08.386-05:00  INFO 8644 --- [labmcp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-17T18:34:08.387-05:00  INFO 8644 --- [labmcp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-17T18:34:08.827-05:00  INFO 8644 --- [labmcp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-17T18:34:08.924-05:00  INFO 8644 --- [labmcp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interface.
+2026-11-17T18:34:09.108-05:00  WARN 8644 --- [labmcp] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-11-17T18:34:09.109-05:00  WARN 8644 --- [labmcp] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'serverAnnotatedBeanRegistry' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration$ServerMcpAnnotatedBeans] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-11-17T18:34:09.115-05:00  WARN 8644 --- [labmcp] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.ai.mcp.server.annotation-scanner-org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerProperties' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-11-17T18:34:09.312-05:00  INFO 8644 --- [labmcp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2026-11-17T18:34:09.322-05:00  INFO 8644 --- [labmcp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-17T18:34:09.323-05:00  INFO 8644 --- [labmcp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2026-11-17T18:34:09.361-05:00  INFO 8644 --- [labmcp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-17T18:34:09.362-05:00  INFO 8644 --- [labmcp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 974 ms
+2026-11-17T18:34:09.424-05:00  INFO 8644 --- [labmcp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-17T18:34:09.555-05:00  INFO 8644 --- [labmcp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15db2362
+2026-11-17T18:34:09.557-05:00  INFO 8644 --- [labmcp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-17T18:34:09.615-05:00  INFO 8644 --- [labmcp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-17T18:34:09.651-05:00  INFO 8644 --- [labmcp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2026-11-17T18:34:09.674-05:00  INFO 8644 --- [labmcp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-17T18:34:09.850-05:00  INFO 8644 --- [labmcp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-17T18:34:09.969-05:00  WARN 8644 --- [labmcp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-17T18:34:09.979-05:00  INFO 8644 --- [labmcp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-17T18:34:10.496-05:00  INFO 8644 --- [labmcp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-17T18:34:11.545-05:00  INFO 8644 --- [labmcp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-17T18:34:12.908-05:00  WARN 8644 --- [labmcp] [restartedMain] o.s.m.provider.tool.SyncMcpToolProvider  : No tool methods found in the provided tool objects: []
+2026-11-17T18:34:12.915-05:00  INFO 8644 --- [labmcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable tools capabilities, notification: true
+2026-11-17T18:34:12.916-05:00  INFO 8644 --- [labmcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Registered tools: 7
+2026-11-17T18:34:12.916-05:00  INFO 8644 --- [labmcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources capabilities, notification: true
+2026-11-17T18:34:12.917-05:00  INFO 8644 --- [labmcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources templates capabilities, notification: true
+2026-11-17T18:34:12.917-05:00  INFO 8644 --- [labmcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable prompts capabilities, notification: true
+2026-11-17T18:34:12.917-05:00  INFO 8644 --- [labmcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable completions capabilities
+2026-11-17T18:34:13.165-05:00  INFO 8644 --- [labmcp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-11-17T18:34:13.262-05:00  INFO 8644 --- [labmcp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
+2026-11-17T18:34:13.269-05:00  INFO 8644 --- [labmcp] [restartedMain] com.example.labmcp.LabmcpApplication     : Started LabmcpApplication in 5.199 seconds (process running for 5.509)
+2026-11-17T18:36:49.762-05:00  INFO 8644 --- [labmcp] [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-17T18:36:49.763-05:00  INFO 8644 --- [labmcp] [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-17T18:36:49.764-05:00  INFO 8644 --- [labmcp] [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-11-17T18:36:49.922-05:00  INFO 8644 --- [labmcp] [http-nio-8088-exec-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=Sampling[], elicitation=null], Info: Implementation[name=mcp-inspector, title=null, version=0.12.0]
+2026-11-17T18:39:08.309-05:00 DEBUG 8644 --- [labmcp] [http-nio-8088-exec-7] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: listTareas
+2026-11-17T18:39:08.550-05:00 DEBUG 8644 --- [labmcp] [http-nio-8088-exec-7] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: listTareas
+2026-11-17T18:39:08.562-05:00 DEBUG 8644 --- [labmcp] [http-nio-8088-exec-7] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T18:40:16.573-05:00  INFO 8644 --- [labmcp] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-17T20:28:30.350-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] com.example.labmcp.LabmcpApplication     : Starting LabmcpApplication using Java 21.0.12.1 with PID 14256 (C:\Users\USUARIO\Desktop\UdeA\Octavo semestre\Arquitectura\laboratorios\Laboratorio 3\labmcp\target\classes started by USUARIO in C:\Users\USUARIO\Desktop\UdeA\Octavo semestre\Arquitectura\laboratorios\Laboratorio 3\labmcp)
+2026-11-17T20:28:30.352-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] com.example.labmcp.LabmcpApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-11-17T20:28:30.381-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-17T20:28:30.381-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-17T20:28:30.830-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-17T20:28:30.935-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 4 JPA repository interfaces.
+2026-11-17T20:28:31.123-05:00  WARN 14256 --- [supermercado-mcp] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-11-17T20:28:31.124-05:00  WARN 14256 --- [supermercado-mcp] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'serverAnnotatedBeanRegistry' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration$ServerMcpAnnotatedBeans] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-11-17T20:28:31.130-05:00  WARN 14256 --- [supermercado-mcp] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.ai.mcp.server.annotation-scanner-org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerProperties' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-11-17T20:28:31.313-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2026-11-17T20:28:31.323-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-17T20:28:31.324-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2026-11-17T20:28:31.363-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-17T20:28:31.363-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 981 ms
+2026-11-17T20:28:31.423-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-17T20:28:31.539-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28870aaf
+2026-11-17T20:28:31.541-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-17T20:28:31.593-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-17T20:28:31.629-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2026-11-17T20:28:31.653-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-17T20:28:31.830-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-17T20:28:31.878-05:00  WARN 14256 --- [supermercado-mcp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-11-17T20:28:31.891-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-17T20:28:32.448-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-17T20:28:33.602-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-17T20:28:34.176-05:00  WARN 14256 --- [supermercado-mcp] [restartedMain] o.s.m.provider.tool.SyncMcpToolProvider  : No tool methods found in the provided tool objects: []
+2026-11-17T20:28:34.183-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable tools capabilities, notification: true
+2026-11-17T20:28:34.184-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Registered tools: 9
+2026-11-17T20:28:34.184-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources capabilities, notification: true
+2026-11-17T20:28:34.185-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources templates capabilities, notification: true
+2026-11-17T20:28:34.185-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable prompts capabilities, notification: true
+2026-11-17T20:28:34.185-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable completions capabilities
+2026-11-17T20:28:34.281-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-11-17T20:28:34.303-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
+2026-11-17T20:28:34.309-05:00  INFO 14256 --- [supermercado-mcp] [restartedMain] com.example.labmcp.LabmcpApplication     : Started LabmcpApplication in 4.25 seconds (process running for 4.57)
+2026-11-17T20:31:44.593-05:00  INFO 14256 --- [supermercado-mcp] [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-17T20:31:44.594-05:00  INFO 14256 --- [supermercado-mcp] [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-17T20:31:44.596-05:00  INFO 14256 --- [supermercado-mcp] [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-11-17T20:31:44.635-05:00  INFO 14256 --- [supermercado-mcp] [http-nio-8088-exec-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=curl, title=null, version=1.0]
+2026-11-17T20:35:09.800-05:00  INFO 14256 --- [supermercado-mcp] [http-nio-8088-exec-3] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-03-26, Capabilities: ClientCapabilities[experimental=null, roots=RootCapabilities[listChanged=true], sampling=Sampling[], elicitation=null], Info: Implementation[name=mcp-inspector, title=null, version=0.12.0]
+2026-11-17T20:37:15.066-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-8] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: listarProductos
+2026-11-17T20:37:15.160-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-8] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: listarProductos
+2026-11-17T20:37:15.160-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-8] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T20:37:56.929-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-9] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: buscarProductos
+2026-11-17T20:37:57.090-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-9] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: buscarProductos
+2026-11-17T20:37:57.090-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-9] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T20:38:41.422-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-10] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: listarPorCategoria
+2026-11-17T20:38:41.425-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-10] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: listarPorCategoria
+2026-11-17T20:38:41.425-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-10] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T20:38:46.531-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-1] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: listarPorCategoria
+2026-11-17T20:38:46.534-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-1] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: listarPorCategoria
+2026-11-17T20:38:46.534-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-1] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T20:39:15.286-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-2] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: listarPorCategoria
+2026-11-17T20:39:15.289-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-2] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: listarPorCategoria
+2026-11-17T20:39:15.289-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-2] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T20:39:48.697-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-3] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: crearPedido
+2026-11-17T20:39:48.842-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-3] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: crearPedido
+2026-11-17T20:39:48.842-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-3] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T20:40:20.497-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-4] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: agregarProducto
+2026-11-17T20:40:20.632-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-4] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: agregarProducto
+2026-11-17T20:40:20.633-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-4] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T20:41:08.941-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-5] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: agregarProducto
+2026-11-17T20:41:09.007-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-5] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: agregarProducto
+2026-11-17T20:41:09.007-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-5] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T20:41:41.371-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-6] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: agregarProducto
+2026-11-17T20:42:40.736-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-8] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: verPedido
+2026-11-17T20:42:40.741-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-8] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: verPedido
+2026-11-17T20:42:40.741-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-8] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T20:43:19.743-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-9] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: confirmarPedido
+2026-11-17T20:43:19.825-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-9] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: confirmarPedido
+2026-11-17T20:43:19.825-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-9] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T20:43:42.822-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-10] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: listarProductos
+2026-11-17T20:43:42.825-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-10] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: listarProductos
+2026-11-17T20:43:42.826-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-10] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T20:45:18.752-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-2] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: crearPedido
+2026-11-17T20:45:18.813-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-2] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: crearPedido
+2026-11-17T20:45:18.813-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-2] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T20:45:35.159-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-3] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: agregarProducto
+2026-11-17T20:45:35.216-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-3] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: agregarProducto
+2026-11-17T20:45:35.217-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-3] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T20:45:42.326-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-4] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: cancelarPedido
+2026-11-17T20:45:42.382-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-4] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: cancelarPedido
+2026-11-17T20:45:42.383-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-4] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T21:22:43.660-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-6] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: listarPedidosCliente
+2026-11-17T21:22:43.664-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-6] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: listarPedidosCliente
+2026-11-17T21:22:43.664-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-6] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T21:45:14.523-05:00  INFO 14256 --- [supermercado-mcp] [http-nio-8088-exec-2] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-11-25, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=mcp-remote-fallback-test, title=null, version=0.0.0]
+2026-11-17T21:45:14.524-05:00  WARN 14256 --- [supermercado-mcp] [http-nio-8088-exec-2] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-11-25, so the server will suggest the 2025-06-18 version instead
+2026-11-17T21:45:14.541-05:00  INFO 14256 --- [supermercado-mcp] [http-nio-8088-exec-5] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-11-25, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=claude-ai (via mcp-remote 0.16.6), title=null, version=0.1.0]
+2026-11-17T21:45:14.541-05:00  WARN 14256 --- [supermercado-mcp] [http-nio-8088-exec-5] i.m.server.McpAsyncServer                : Client requested unsupported protocol version: 2025-11-25, so the server will suggest the 2025-06-18 version instead
+2026-11-17T21:46:15.947-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-4] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: listarPorCategoria
+2026-11-17T21:46:15.951-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-4] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: listarPorCategoria
+2026-11-17T21:46:15.951-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-4] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T21:46:45.946-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-5] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: buscarProductos
+2026-11-17T21:46:45.949-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-5] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: buscarProductos
+2026-11-17T21:46:45.950-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-5] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T21:47:49.418-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-7] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: crearPedido
+2026-11-17T21:47:49.518-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-7] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: crearPedido
+2026-11-17T21:47:49.519-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-7] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T21:47:52.248-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-8] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: agregarProducto
+2026-11-17T21:47:52.358-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-8] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: agregarProducto
+2026-11-17T21:47:52.359-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-8] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T21:47:53.187-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-10] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: agregarProducto
+2026-11-17T21:47:53.246-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-10] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: agregarProducto
+2026-11-17T21:47:53.246-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-10] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T22:03:04.693-05:00  INFO 14256 --- [supermercado-mcp] [http-nio-8088-exec-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-06-18, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=Java SDK MCP Client, title=null, version=1.0.0]
+2026-11-17T22:11:41.353-05:00  INFO 14256 --- [supermercado-mcp] [http-nio-8088-exec-6] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-06-18, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=Java SDK MCP Client, title=null, version=1.0.0]
+2026-11-17T22:15:13.632-05:00  INFO 14256 --- [supermercado-mcp] [http-nio-8088-exec-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-06-18, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=Java SDK MCP Client, title=null, version=1.0.0]
+2026-11-17T22:18:28.350-05:00  INFO 14256 --- [supermercado-mcp] [http-nio-8088-exec-6] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-06-18, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=Java SDK MCP Client, title=null, version=1.0.0]
+2026-11-17T22:20:48.464-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-1] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: listarPedidosCliente
+2026-11-17T22:20:48.471-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-1] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: listarPedidosCliente
+2026-11-17T22:20:48.471-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-1] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T22:20:49.400-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-3] o.s.ai.tool.method.MethodToolCallback    : Starting execution of tool: listarPedidosCliente
+2026-11-17T22:20:49.402-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-3] o.s.ai.tool.method.MethodToolCallback    : Successful execution of tool: listarPedidosCliente
+2026-11-17T22:20:49.402-05:00 DEBUG 14256 --- [supermercado-mcp] [http-nio-8088-exec-3] o.s.a.t.e.DefaultToolCallResultConverter : Converting tool result to JSON.
+2026-11-17T22:25:05.917-05:00  INFO 14256 --- [supermercado-mcp] [http-nio-8088-exec-4] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-06-18, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=Java SDK MCP Client, title=null, version=1.0.0]
+2026-11-17T22:29:22.842-05:00  INFO 14256 --- [supermercado-mcp] [http-nio-8088-exec-10] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2025-06-18, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null, elicitation=null], Info: Implementation[name=Java SDK MCP Client, title=null, version=1.0.0]
